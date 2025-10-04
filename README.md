@@ -1,8 +1,6 @@
 F3-Histo: Feature Flow-aware Temporal Evolution Dynamics Supervision for Enhanced Pathological Image Classification
 This repository contains the official implementation of the F3-Histo framework, as presented in the paper "Feature Flow-aware Temporal Evolution Dynamics Supervision for Enhanced Pathological Image Classification" published in Medical Image Analysis. The framework introduces a novel approach to histopathology image classification by modeling feature flow-aware temporal evolution dynamics, leveraging diffusion models, timestep-modulated mamba (TMM), dynamic graph feature aggregation (DGFA), and adaptive class balance (ACB).
 
-![F3-Histo Framework](kuangjia_00.jpg)
-
 Abstract
 Histopathology images are critical for disease diagnosis, but traditional pixel-based models often fail to capture the complex spatiotemporal relationships inherent in pathological state transitions. The F3-Histo framework addresses this limitation by introducing the first unified feature flow-aware temporally evolving dynamic supervision model for histopathology image classification. By integrating diffusion models to model temporal evolution, TMM for long-range dependency capture, DGFA for adaptive feature aggregation, and ACB for robust class balance, F3-Histo achieves enhanced classification performance, offering a novel paradigm for medical image analysis.
 Introduction
@@ -55,3 +53,20 @@ To evaluate a trained model, run:
 python train.py --dataset BreakHis --data_dir data/BreakHis --evaluate --checkpoint checkpoints/best_model.pth
 
 This outputs classification metrics (accuracy, precision, recall, F1 score).
+Citation
+If you use this code or the F3-Histo framework, please cite:
+@article{zhang2025f3histo,
+  title={Feature Flow-aware Temporal Evolution Dynamics Supervision for Enhanced Pathological Image Classification},
+  author={Zhang, Peng and Zhao, Heyang and Liu, Zeyu and Ma, Chenbin and Xue, Qianqian and Liu, Xingyu and Wu, Tian and Zhang, Guanglei and Wang, Wenjian},
+  journal={Medical Image Analysis},
+  year={2025},
+  doi={XXXX}
+}
+
+License
+This project is licensed under the MIT License.
+Contact
+For questions, please contact:
+
+Guanglei Zhang: guangleizhang@buaa.edu.cn
+Wenjian Wang: wjwang@sxu.edu.cn
