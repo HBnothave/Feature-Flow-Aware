@@ -1,7 +1,7 @@
 F3-Histo: Feature Flow-aware Temporal Evolution Dynamics Supervision for Enhanced Pathological Image Classification
 This repository contains the official implementation of the F3-Histo framework, as presented in the paper "Feature Flow-aware Temporal Evolution Dynamics Supervision for Enhanced Pathological Image Classification" published in Medical Image Analysis. The framework introduces a novel approach to histopathology image classification by modeling feature flow-aware temporal evolution dynamics, leveraging diffusion models, timestep-modulated mamba (TMM), dynamic graph feature aggregation (DGFA), and adaptive class balance (ACB).
 
-![F3-Histo Framework](./kuangjia.jpg)
+![F3-Histo Framework](./kuangjia__00.jpg)
 
 Abstract
 Histopathology images are critical for disease diagnosis, but traditional pixel-based models often fail to capture the complex spatiotemporal relationships inherent in pathological state transitions. The F3-Histo framework addresses this limitation by introducing the first unified feature flow-aware temporally evolving dynamic supervision model for histopathology image classification. By integrating diffusion models to model temporal evolution, TMM for long-range dependency capture, DGFA for adaptive feature aggregation, and ACB for robust class balance, F3-Histo achieves enhanced classification performance, offering a novel paradigm for medical image analysis.
